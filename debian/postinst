@@ -1,0 +1,14 @@
+#!/bin/sh
+
+case "$1" in
+install)
+	# Add user to signald group
+	if id -u user 2>/dev/null >/dev/null; then
+		gpasswd -a user signald
+	fi
+	;;
+esac
+
+#DEBHELPER#
+
+exit 0
