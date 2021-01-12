@@ -8,6 +8,7 @@ Build-Depends:
  libglib2.0-dev,
  libjson-glib-dev,
  libmagic-dev,
+ pidgin-dev,
  git,
 Standards-Version: 4.3.0
 Homepage: https://github.com/hoehermann/libpurple-signald
