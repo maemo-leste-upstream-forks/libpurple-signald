@@ -1,0 +1,20 @@
+Source: libpurple-signald
+Section: user/network
+Priority: optional
+Maintainer: Ivan J. <parazyd@dyne.org>
+Build-Depends:
+ debhelper (>= 10),
+ libpurple-dev,
+ libglib2.0-dev,
+ libjson-glib-dev,
+ libmagic-dev,
+ git,
+Standards-Version: 4.3.0
+Homepage: https://github.com/hoehermann/libpurple-signald
+Vcs-Git: https://github.com/maemo-leste-extras/libpurple-signald
+Vcs-Browser: https://github.com/maemo-leste-extras/libpurple-signald
+
+Package: libpurple-signald
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, signald, qrencode
+Description: A libpurple/Pidgin plugin for signald
