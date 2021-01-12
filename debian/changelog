@@ -1,0 +1,5 @@
+libpurple-signald (0.6.1) unstable; urgency=medium
+
+  * Initial Leste packaging.
+
+ -- Ivan J. <parazyd@dyne.org>  Tue, 12 Jan 2021 18:53:26 +0100
